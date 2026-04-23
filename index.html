@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SYNTHAI | Fractional CTO & AI-Native Tech Consultancy</title>
-    <meta name="description" content="Fractional CTO services, AI-native product solutioning, and startup team building. Technology leadership that treats your organisation as a living system.">
-    <meta name="keywords" content="Fractional CTO, tech consultancy, AI strategy, startup team building, product solutioning, AI-native, technology leadership, Melbourne">
+    <title>SYNTHAI TECH | AI-Native Product & Technology Consultancy</title>
+    <meta name="description"
+        content="Fractional CTO services, AI-native product solutioning, and startup team building. Technology leadership that treats your organisation as a living system.">
+    <meta name="keywords"
+        content="Fractional CTO, tech consultancy, AI strategy, startup team building, product solutioning, AI-native, technology leadership, Melbourne">
     <meta name="author" content="Naveen Riaz Mohamed Kani">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='32 32 136 136'><circle cx='100' cy='65' r='11' fill='%23D4A843'/><circle cx='59.5' cy='135' r='11' fill='%232874A6'/><circle cx='140.5' cy='135' r='11' fill='%2327ae60'/></svg>">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='32 32 136 136'><circle cx='100' cy='65' r='11' fill='%23D4A843'/><circle cx='59.5' cy='135' r='11' fill='%232874A6'/><circle cx='140.5' cy='135' r='11' fill='%2327ae60'/></svg>">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="SYNTHAI | Fractional CTO & AI-Native Tech Consultancy">
-    <meta property="og:description" content="Technology leadership that treats your organisation as a living system. Fractional CTO, AI strategy, and startup team building.">
+    <meta property="og:title" content="SYNTHAI TECH | AI-Native Product & Technology Consultancy">
+    <meta property="og:description"
+        content="Technology leadership that treats your organisation as a living system. Fractional CTO, AI strategy, and startup team building.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://synthai.biz">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
     <style>
         /* ════════════════════════════════════════════════════════
@@ -32,14 +39,14 @@
             --soul-glow: rgba(212, 168, 67, 0.12);
             --body-glow: rgba(39, 174, 96, 0.12);
             --bg: #0A0A0F;
-            --bg-elevated: rgba(255,255,255,0.025);
-            --bg-card: rgba(255,255,255,0.03);
-            --bg-card-hover: rgba(255,255,255,0.055);
+            --bg-elevated: rgba(255, 255, 255, 0.025);
+            --bg-card: rgba(255, 255, 255, 0.03);
+            --bg-card-hover: rgba(255, 255, 255, 0.055);
             --text: #E8E6E3;
-            --text-dim: rgba(232,230,227,0.6);
-            --text-micro: rgba(232,230,227,0.35);
-            --border: rgba(255,255,255,0.06);
-            --border-hover: rgba(255,255,255,0.12);
+            --text-dim: rgba(232, 230, 227, 0.6);
+            --text-micro: rgba(232, 230, 227, 0.35);
+            --border: rgba(255, 255, 255, 0.06);
+            --border-hover: rgba(255, 255, 255, 0.12);
             --font-display: 'Outfit', sans-serif;
             --font-body: 'Inter', system-ui, sans-serif;
             --gradient-mbs: linear-gradient(135deg, var(--body), var(--mind), var(--soul));
@@ -50,8 +57,19 @@
         /* ════════════════════════════════════════════════════════
            RESET
            ════════════════════════════════════════════════════════ */
-        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+        }
+
         body {
             font-family: var(--font-body);
             background: var(--bg);
@@ -63,251 +81,988 @@
         /* ════════════════════════════════════════════════════════
            AMBIENT
            ════════════════════════════════════════════════════════ */
-        .nebula { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
-        .orb { position: absolute; border-radius: 50%; filter: blur(120px); opacity: 0.2; animation: breathe 12s ease-in-out infinite; }
-        .orb-1 { width: 600px; height: 600px; background: var(--soul); top: -15%; right: 5%; }
-        .orb-2 { width: 450px; height: 450px; background: var(--mind); bottom: 10%; left: -8%; animation-delay: 4s; }
-        .orb-3 { width: 350px; height: 350px; background: var(--body); bottom: -15%; right: 25%; animation-delay: 8s; }
-        @keyframes breathe { 0%,100% { transform: scale(1); opacity: 0.15; } 50% { transform: scale(1.15); opacity: 0.28; } }
-        @media (prefers-reduced-motion: reduce) { .orb { animation: none; } }
+        .nebula {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(120px);
+            opacity: 0.2;
+            animation: breathe 12s ease-in-out infinite;
+        }
+
+        .orb-1 {
+            width: 600px;
+            height: 600px;
+            background: var(--soul);
+            top: -15%;
+            right: 5%;
+        }
+
+        .orb-2 {
+            width: 450px;
+            height: 450px;
+            background: var(--mind);
+            bottom: 10%;
+            left: -8%;
+            animation-delay: 4s;
+        }
+
+        .orb-3 {
+            width: 350px;
+            height: 350px;
+            background: var(--body);
+            bottom: -15%;
+            right: 25%;
+            animation-delay: 8s;
+        }
+
+        @keyframes breathe {
+
+            0%,
+            100% {
+                transform: scale(1);
+                opacity: 0.15;
+            }
+
+            50% {
+                transform: scale(1.15);
+                opacity: 0.28;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .orb {
+                animation: none;
+            }
+        }
 
         /* ════════════════════════════════════════════════════════
            LAYOUT
            ════════════════════════════════════════════════════════ */
-        .container { position: relative; z-index: 1; max-width: 1100px; margin: 0 auto; padding: 0 24px; }
-        section { padding: 100px 0; }
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        section {
+            padding: 100px 0;
+        }
 
         /* ════════════════════════════════════════════════════════
            NAV
            ════════════════════════════════════════════════════════ */
         nav {
-            position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 16px 0;
-            background: rgba(10,10,15,0.8); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
-            border-bottom: 1px solid var(--border); transition: padding 0.3s;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding: 16px 0;
+            background: rgba(10, 10, 15, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            transition: padding 0.3s;
         }
-        nav.scrolled { padding: 10px 0; }
-        .nav-inner { max-width: 1100px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; }
-        .nav-logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
-        .nav-logo svg { width: 32px; height: 32px; }
-        .nav-wordmark { font-family: var(--font-display); font-weight: 700; font-size: 1.2rem; color: var(--text); letter-spacing: -0.02em; }
-        .nav-links { display: flex; gap: 28px; list-style: none; align-items: center; }
-        .nav-links a { color: var(--text-dim); text-decoration: none; font-size: 0.875rem; font-weight: 500; letter-spacing: 0.01em; transition: color 0.2s; }
-        .nav-links a:hover { color: var(--text); }
+
+        nav.scrolled {
+            padding: 10px 0;
+        }
+
+        .nav-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .nav-logo svg {
+            width: 32px;
+            height: 32px;
+        }
+
+        .nav-wordmark {
+            font-family: var(--font-display);
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: var(--text);
+            letter-spacing: -0.02em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-dim);
+            text-decoration: none;
+            font-size: 0.875rem;
+            font-weight: 500;
+            letter-spacing: 0.01em;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: var(--text);
+        }
+
         .nav-cta {
-            background: var(--gradient-mbs); color: #0A0A0F !important; padding: 8px 20px;
-            border-radius: 8px; font-weight: 600 !important; transition: transform 0.2s, box-shadow 0.2s !important;
+            background: var(--gradient-mbs);
+            color: #0A0A0F !important;
+            padding: 8px 20px;
+            border-radius: 8px;
+            font-weight: 600 !important;
+            transition: transform 0.2s, box-shadow 0.2s !important;
         }
-        .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 4px 20px rgba(212,168,67,0.3); }
-        .menu-btn { display: none; background: none; border: none; color: var(--text); cursor: pointer; padding: 8px; }
-        .menu-btn svg { width: 24px; height: 24px; }
+
+        .nav-cta:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 20px rgba(212, 168, 67, 0.3);
+        }
+
+        .menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text);
+            cursor: pointer;
+            padding: 8px;
+        }
+
+        .menu-btn svg {
+            width: 24px;
+            height: 24px;
+        }
 
         /* ════════════════════════════════════════════════════════
            HERO
            ════════════════════════════════════════════════════════ */
-        .hero { min-height: 100vh; display: flex; align-items: center; padding-top: 80px; }
-        .hero-content { max-width: 720px; }
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding-top: 80px;
+        }
+
+        .hero-content {
+            max-width: 720px;
+        }
+
         .hero-badge {
-            display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px;
-            border: 1px solid var(--border); border-radius: 100px; font-size: 0.78rem;
-            color: var(--text-dim); margin-bottom: 28px; letter-spacing: 0.06em; text-transform: uppercase;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 14px;
+            border: 1px solid var(--border);
+            border-radius: 100px;
+            font-size: 0.78rem;
+            color: var(--text-dim);
+            margin-bottom: 28px;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
         }
-        .hero-badge .pulse { width: 6px; height: 6px; border-radius: 50%; background: var(--body); animation: blink 2s ease-in-out infinite; }
-        @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
-        h1 { font-family: var(--font-display); font-size: clamp(2.6rem, 5.5vw, 4rem); font-weight: 800; line-height: 1.1; letter-spacing: -0.03em; margin-bottom: 20px; }
-        .gt { background: var(--gradient-mbs); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-        .hero-sub { font-size: 1.15rem; color: var(--text-dim); max-width: 560px; line-height: 1.8; margin-bottom: 36px; }
-        .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; }
+
+        .hero-badge .pulse {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--body);
+            animation: blink 2s ease-in-out infinite;
+        }
+
+        @keyframes blink {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.3;
+            }
+        }
+
+        h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.6rem, 5.5vw, 4rem);
+            font-weight: 800;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            margin-bottom: 20px;
+        }
+
+        .gt {
+            background: var(--gradient-mbs);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-sub {
+            font-size: 1.15rem;
+            color: var(--text-dim);
+            max-width: 560px;
+            line-height: 1.8;
+            margin-bottom: 36px;
+        }
+
+        .hero-ctas {
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
         .btn-p {
-            display: inline-flex; align-items: center; gap: 8px; background: var(--gradient-mbs);
-            color: #0A0A0F; padding: 14px 28px; border-radius: 12px; text-decoration: none;
-            font-weight: 600; font-size: 0.95rem; transition: transform 0.2s, box-shadow 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--gradient-mbs);
+            color: #0A0A0F;
+            padding: 14px 28px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: transform 0.2s, box-shadow 0.2s;
         }
-        .btn-p:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(212,168,67,0.25); }
+
+        .btn-p:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(212, 168, 67, 0.25);
+        }
+
         .btn-s {
-            display: inline-flex; align-items: center; gap: 8px; background: transparent;
-            color: var(--text); padding: 14px 28px; border-radius: 12px; text-decoration: none;
-            font-weight: 500; font-size: 0.95rem; border: 1px solid var(--border); transition: border-color 0.2s, background 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: transparent;
+            color: var(--text);
+            padding: 14px 28px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            border: 1px solid var(--border);
+            transition: border-color 0.2s, background 0.2s;
         }
-        .btn-s:hover { border-color: var(--border-hover); background: var(--bg-card); }
+
+        .btn-s:hover {
+            border-color: var(--border-hover);
+            background: var(--bg-card);
+        }
 
         /* Trust bar */
-        .trust-bar { margin-top: 56px; padding-top: 32px; border-top: 1px solid var(--border); }
-        .trust-bar p { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-micro); margin-bottom: 14px; }
-        .trust-logos { display: flex; gap: 28px; flex-wrap: wrap; align-items: center; }
-        .trust-logos span { font-family: var(--font-display); font-weight: 600; font-size: 0.9rem; color: var(--text-micro); letter-spacing: 0.02em; }
+        .trust-bar {
+            margin-top: 56px;
+            padding-top: 32px;
+            border-top: 1px solid var(--border);
+        }
+
+        .trust-bar p {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-micro);
+            margin-bottom: 14px;
+        }
+
+        .trust-logos {
+            display: flex;
+            gap: 28px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .trust-logos span {
+            font-family: var(--font-display);
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--text-micro);
+            letter-spacing: 0.02em;
+        }
 
         /* ════════════════════════════════════════════════════════
            SECTION HEADERS
            ════════════════════════════════════════════════════════ */
-        .sec-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--soul); margin-bottom: 10px; font-weight: 600; }
-        .sec-title { font-family: var(--font-display); font-size: clamp(1.7rem,3.5vw,2.4rem); font-weight: 700; letter-spacing: -0.02em; margin-bottom: 14px; line-height: 1.2; }
-        .sec-desc { color: var(--text-dim); max-width: 540px; font-size: 1rem; line-height: 1.8; margin-bottom: 48px; }
+        .sec-label {
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--soul);
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .sec-title {
+            font-family: var(--font-display);
+            font-size: clamp(1.7rem, 3.5vw, 2.4rem);
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 14px;
+            line-height: 1.2;
+        }
+
+        .sec-desc {
+            color: var(--text-dim);
+            max-width: 540px;
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 48px;
+        }
 
         /* ════════════════════════════════════════════════════════
            SERVICES GRID
            ════════════════════════════════════════════════════════ */
-        .services-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
-        .svc {
-            background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
-            padding: 36px 28px; transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s; position: relative; overflow: hidden;
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
         }
-        .svc::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; }
-        .svc:hover { transform: translateY(-4px); border-color: var(--border-hover); }
-        .svc-icon { font-size: 1.6rem; margin-bottom: 16px; display: block; }
-        .svc h3 { font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; margin-bottom: 10px; }
-        .svc p { color: var(--text-dim); font-size: 0.88rem; line-height: 1.7; }
-        .svc-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
+
+        .svc {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 36px 28px;
+            transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .svc::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+        }
+
+        .svc:hover {
+            transform: translateY(-4px);
+            border-color: var(--border-hover);
+        }
+
+        .svc-icon {
+            font-size: 1.6rem;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .svc h3 {
+            font-family: var(--font-display);
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .svc p {
+            color: var(--text-dim);
+            font-size: 0.88rem;
+            line-height: 1.7;
+        }
+
+        .svc-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 16px;
+        }
+
         .svc-tag {
-            font-size: 0.7rem; padding: 3px 10px; border-radius: 100px; border: 1px solid var(--border);
-            color: var(--text-micro); letter-spacing: 0.04em;
+            font-size: 0.7rem;
+            padding: 3px 10px;
+            border-radius: 100px;
+            border: 1px solid var(--border);
+            color: var(--text-micro);
+            letter-spacing: 0.04em;
         }
 
         /* Color accent per service */
-        .svc.fcto::before { background: var(--soul); }
-        .svc.fcto:hover { box-shadow: 0 12px 40px var(--soul-glow); }
-        .svc.ai::before { background: var(--mind); }
-        .svc.ai:hover { box-shadow: 0 12px 40px var(--mind-glow); }
-        .svc.team::before { background: var(--body); }
-        .svc.team:hover { box-shadow: 0 12px 40px var(--body-glow); }
-        .svc.product::before { background: linear-gradient(90deg, var(--mind), var(--soul)); }
-        .svc.product:hover { box-shadow: 0 12px 40px var(--mind-glow); }
+        .svc.fcto::before {
+            background: var(--soul);
+        }
+
+        .svc.fcto:hover {
+            box-shadow: 0 12px 40px var(--soul-glow);
+        }
+
+        .svc.ai::before {
+            background: var(--mind);
+        }
+
+        .svc.ai:hover {
+            box-shadow: 0 12px 40px var(--mind-glow);
+        }
+
+        .svc.team::before {
+            background: var(--body);
+        }
+
+        .svc.team:hover {
+            box-shadow: 0 12px 40px var(--body-glow);
+        }
+
+        .svc.product::before {
+            background: linear-gradient(90deg, var(--mind), var(--soul));
+        }
+
+        .svc.product:hover {
+            box-shadow: 0 12px 40px var(--mind-glow);
+        }
+
+        .svc.edu::before {
+            background: linear-gradient(90deg, var(--soul), var(--body));
+        }
+
+        .svc.edu:hover {
+            box-shadow: 0 12px 40px var(--soul-glow);
+        }
+
+        .svc.coach::before {
+            background: linear-gradient(90deg, var(--body), var(--mind));
+        }
+
+        .svc.coach:hover {
+            box-shadow: 0 12px 40px var(--body-glow);
+        }
 
         /* ════════════════════════════════════════════════════════
            HOW IT WORKS
            ════════════════════════════════════════════════════════ */
-        .process-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
         .step {
-            background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
-            padding: 32px 24px; text-align: center; position: relative;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 32px 24px;
+            text-align: center;
+            position: relative;
         }
+
         .step-num {
-            font-family: var(--font-display); font-size: 2.5rem; font-weight: 800;
-            background: var(--gradient-mbs); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-            background-clip: text; margin-bottom: 12px; line-height: 1;
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: var(--gradient-mbs);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 12px;
+            line-height: 1;
         }
-        .step h3 { font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; margin-bottom: 8px; }
-        .step p { color: var(--text-dim); font-size: 0.85rem; line-height: 1.7; }
-        .step-connector { display: none; } /* For future arrow connector */
+
+        .step h3 {
+            font-family: var(--font-display);
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .step p {
+            color: var(--text-dim);
+            font-size: 0.85rem;
+            line-height: 1.7;
+        }
+
+        .step-connector {
+            display: none;
+        }
+
+        /* For future arrow connector */
 
         /* ════════════════════════════════════════════════════════
            MBS PHILOSOPHY (condensed)
            ════════════════════════════════════════════════════════ */
         .mbs-strip {
-            display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
-            background: var(--border); border-radius: var(--radius); overflow: hidden;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background: var(--border);
+            border-radius: var(--radius);
+            overflow: hidden;
         }
-        .mbs-cell { background: var(--bg); padding: 32px 24px; text-align: center; }
-        .mbs-dot { width: 12px; height: 12px; border-radius: 50%; margin: 0 auto 12px; }
-        .mbs-dot.mind { background: var(--mind); box-shadow: 0 0 16px var(--mind-glow); }
-        .mbs-dot.soul { background: var(--soul); box-shadow: 0 0 16px var(--soul-glow); }
-        .mbs-dot.body { background: var(--body); box-shadow: 0 0 16px var(--body-glow); }
-        .mbs-cell h4 { font-family: var(--font-display); font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
-        .mbs-cell .tamil-label { font-size: 0.7rem; color: var(--text-micro); margin-bottom: 8px; }
-        .mbs-cell p { color: var(--text-dim); font-size: 0.82rem; line-height: 1.6; }
+
+        .mbs-cell {
+            background: var(--bg);
+            padding: 32px 24px;
+            text-align: center;
+        }
+
+        .mbs-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin: 0 auto 12px;
+        }
+
+        .mbs-dot.mind {
+            background: var(--mind);
+            box-shadow: 0 0 16px var(--mind-glow);
+        }
+
+        .mbs-dot.soul {
+            background: var(--soul);
+            box-shadow: 0 0 16px var(--soul-glow);
+        }
+
+        .mbs-dot.body {
+            background: var(--body);
+            box-shadow: 0 0 16px var(--body-glow);
+        }
+
+        .mbs-cell h4 {
+            font-family: var(--font-display);
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .mbs-cell .tamil-label {
+            font-size: 0.7rem;
+            color: var(--text-micro);
+            margin-bottom: 8px;
+        }
+
+        .mbs-cell p {
+            color: var(--text-dim);
+            font-size: 0.82rem;
+            line-height: 1.6;
+        }
 
         /* ════════════════════════════════════════════════════════
            BELIEF BANNER
            ════════════════════════════════════════════════════════ */
-        .belief { text-align: center; padding: 72px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
-        .belief blockquote {
-            font-family: var(--font-display); font-size: clamp(1.2rem, 2.5vw, 1.8rem);
-            font-weight: 500; color: var(--text); max-width: 650px; margin: 0 auto; line-height: 1.5; font-style: italic;
+        .belief {
+            text-align: center;
+            padding: 72px 0;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
         }
-        .belief em { color: var(--soul); font-style: normal; }
-        .belief .attr { margin-top: 16px; font-size: 0.8rem; color: var(--text-micro); }
+
+        .belief blockquote {
+            font-family: var(--font-display);
+            font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+            font-weight: 500;
+            color: var(--text);
+            max-width: 650px;
+            margin: 0 auto;
+            line-height: 1.5;
+            font-style: italic;
+        }
+
+        .belief em {
+            color: var(--soul);
+            font-style: normal;
+        }
+
+        .belief .attr {
+            margin-top: 16px;
+            font-size: 0.8rem;
+            color: var(--text-micro);
+        }
 
         /* ════════════════════════════════════════════════════════
            CREDENTIALS
            ════════════════════════════════════════════════════════ */
-        .cred-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
-        .cred {
-            background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm);
-            padding: 28px 20px; text-align: center;
+        .cred-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
         }
-        .cred .num { font-family: var(--font-display); font-size: 2rem; font-weight: 800; margin-bottom: 4px; }
-        .cred .num.mind-c { color: var(--mind); }
-        .cred .num.soul-c { color: var(--soul); }
-        .cred .num.body-c { color: var(--body); }
-        .cred .num.text-c { background: var(--gradient-mbs); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-        .cred p { color: var(--text-dim); font-size: 0.8rem; line-height: 1.5; }
+
+        .cred {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            padding: 28px 20px;
+            text-align: center;
+        }
+
+        .cred .num {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 4px;
+        }
+
+        .cred .num.mind-c {
+            color: var(--mind);
+        }
+
+        .cred .num.soul-c {
+            color: var(--soul);
+        }
+
+        .cred .num.body-c {
+            color: var(--body);
+        }
+
+        .cred .num.text-c {
+            background: var(--gradient-mbs);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .cred p {
+            color: var(--text-dim);
+            font-size: 0.8rem;
+            line-height: 1.5;
+        }
 
         /* ════════════════════════════════════════════════════════
            FOUNDER
            ════════════════════════════════════════════════════════ */
-        .founder { display: flex; align-items: center; gap: 48px; }
-        .founder-avatar {
-            width: 180px; height: 180px; border-radius: 50%; background: var(--gradient-mbs); flex-shrink: 0;
-            display: flex; align-items: center; justify-content: center;
-            font-family: var(--font-display); font-size: 3rem; font-weight: 800; color: #0A0A0F; position: relative;
+        .founder {
+            display: flex;
+            align-items: center;
+            gap: 48px;
         }
-        .founder-avatar::after { content: ''; position: absolute; inset: -4px; border-radius: 50%; border: 2px solid rgba(255,255,255,0.06); }
-        .founder-info h3 { font-family: var(--font-display); font-size: 1.6rem; font-weight: 700; margin-bottom: 6px; }
-        .founder-info .role { color: var(--soul); font-size: 0.88rem; margin-bottom: 14px; font-weight: 500; }
-        .founder-info p { color: var(--text-dim); line-height: 1.8; font-size: 0.92rem; margin-bottom: 18px; }
-        .founder-links { display: flex; gap: 16px; flex-wrap: wrap; }
-        .founder-links a { color: var(--text-dim); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; display: flex; align-items: center; gap: 6px; }
-        .founder-links a:hover { color: var(--text); }
+
+        .founder-avatar {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: var(--gradient-mbs);
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-display);
+            font-size: 3rem;
+            font-weight: 800;
+            color: #0A0A0F;
+            position: relative;
+        }
+
+        .founder-avatar::after {
+            content: '';
+            position: absolute;
+            inset: -4px;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .founder-info h3 {
+            font-family: var(--font-display);
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .founder-info .role {
+            color: var(--soul);
+            font-size: 0.88rem;
+            margin-bottom: 14px;
+            font-weight: 500;
+        }
+
+        .founder-info p {
+            color: var(--text-dim);
+            line-height: 1.8;
+            font-size: 0.92rem;
+            margin-bottom: 18px;
+        }
+
+        .founder-links {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .founder-links a {
+            color: var(--text-dim);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .founder-links a:hover {
+            color: var(--text);
+        }
+
+        .cognitive-matrix {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 16px;
+            margin-bottom: 20px;
+        }
+
+        .cog-token {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            padding: 10px 14px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .cog-token:hover {
+            border-color: var(--mind);
+            box-shadow: 0 4px 12px var(--mind-glow);
+        }
+
+        .cog-label {
+            font-family: var(--font-display);
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--mind);
+            margin-bottom: 4px;
+            font-weight: 600;
+        }
+
+        .cog-desc {
+            font-size: 13px;
+            color: var(--text);
+            line-height: 1.4;
+        }
+
+        .cog-token.full-span {
+            grid-column: 1 / -1;
+        }
 
         /* ════════════════════════════════════════════════════════
            CTA SECTION
            ════════════════════════════════════════════════════════ */
-        .cta-section { text-align: center; padding: 100px 0; }
-        .cta-section h2 { font-family: var(--font-display); font-size: clamp(1.6rem, 3.5vw, 2.2rem); font-weight: 700; margin-bottom: 14px; }
-        .cta-section p { color: var(--text-dim); max-width: 480px; margin: 0 auto 32px; font-size: 1rem; line-height: 1.7; }
-        .cta-buttons { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+        .cta-section {
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .cta-section h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+            font-weight: 700;
+            margin-bottom: 14px;
+        }
+
+        .cta-section p {
+            color: var(--text-dim);
+            max-width: 480px;
+            margin: 0 auto 32px;
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 14px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
 
         /* ════════════════════════════════════════════════════════
            FOOTER
            ════════════════════════════════════════════════════════ */
-        .mbs-divider { height: 2px; background: var(--gradient-mbs); opacity: 0.3; border: none; margin: 0; }
-        footer { border-top: 1px solid var(--border); padding: 40px 0; }
-        .footer-inner { display: flex; justify-content: space-between; align-items: center; }
-        .footer-brand { display: flex; align-items: center; gap: 10px; }
-        .footer-brand svg { width: 24px; height: 24px; }
-        .footer-brand span { font-family: var(--font-display); font-weight: 600; font-size: 0.9rem; color: var(--text-dim); }
-        .footer-copy { color: var(--text-micro); font-size: 0.78rem; }
-        .footer-links { display: flex; gap: 20px; list-style: none; }
-        .footer-links a { color: var(--text-micro); text-decoration: none; font-size: 0.78rem; transition: color 0.2s; }
-        .footer-links a:hover { color: var(--text-dim); }
+        .mbs-divider {
+            height: 2px;
+            background: var(--gradient-mbs);
+            opacity: 0.3;
+            border: none;
+            margin: 0;
+        }
+
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 40px 0;
+        }
+
+        .footer-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .footer-brand svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        .footer-brand span {
+            font-family: var(--font-display);
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--text-dim);
+        }
+
+        .footer-copy {
+            color: var(--text-micro);
+            font-size: 0.78rem;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+        }
+
+        .footer-links a {
+            color: var(--text-micro);
+            text-decoration: none;
+            font-size: 0.78rem;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: var(--text-dim);
+        }
 
         /* ════════════════════════════════════════════════════════
            SCROLL REVEAL
            ════════════════════════════════════════════════════════ */
-        .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.5s ease, transform 0.5s ease; }
-        .reveal.visible { opacity: 1; transform: translateY(0); }
+        .reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
 
         /* ════════════════════════════════════════════════════════
            RESPONSIVE
            ════════════════════════════════════════════════════════ */
         @media (max-width: 900px) {
-            .services-grid { grid-template-columns: 1fr; }
-            .process-grid { grid-template-columns: 1fr; }
-            .cred-grid { grid-template-columns: repeat(2, 1fr); }
-            .founder { flex-direction: column; text-align: center; }
-            .founder-info { text-align: center; }
-            .founder-links { justify-content: center; }
-        }
-        @media (max-width: 640px) {
-            section { padding: 64px 0; }
-            .nav-links {
-                display: none; position: absolute; top: 100%; left: 0; right: 0;
-                background: rgba(10,10,15,0.95); backdrop-filter: blur(20px); flex-direction: column;
-                padding: 24px; gap: 16px; border-bottom: 1px solid var(--border);
+            .services-grid {
+                grid-template-columns: 1fr;
             }
-            .nav-links.open { display: flex; }
-            .menu-btn { display: block; }
-            .hero-ctas { flex-direction: column; }
-            .btn-p, .btn-s { width: 100%; justify-content: center; }
-            .trust-logos { gap: 16px; }
-            .cred-grid { grid-template-columns: 1fr 1fr; }
-            .mbs-strip { grid-template-columns: 1fr; }
-            .footer-inner { flex-direction: column; gap: 14px; text-align: center; }
-            .footer-links { flex-wrap: wrap; justify-content: center; }
-            .founder-avatar { width: 130px; height: 130px; font-size: 2.2rem; }
-            .cta-buttons { flex-direction: column; align-items: center; }
+
+            .process-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cred-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .founder {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .founder-info {
+                text-align: center;
+            }
+
+            .founder-links {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 640px) {
+            section {
+                padding: 64px 0;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgba(10, 10, 15, 0.95);
+                backdrop-filter: blur(20px);
+                flex-direction: column;
+                padding: 24px;
+                gap: 16px;
+                border-bottom: 1px solid var(--border);
+            }
+
+            .nav-links.open {
+                display: flex;
+            }
+
+            .menu-btn {
+                display: block;
+            }
+
+            .hero-ctas {
+                flex-direction: column;
+            }
+
+            .btn-p,
+            .btn-s {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .trust-logos {
+                gap: 16px;
+            }
+
+            .cred-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .mbs-strip {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-inner {
+                flex-direction: column;
+                gap: 14px;
+                text-align: center;
+            }
+
+            .footer-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .founder-avatar {
+                width: 130px;
+                height: 130px;
+                font-size: 2.2rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
         }
     </style>
 </head>
+
 <body>
 
     <!-- Ambient -->
@@ -322,14 +1077,19 @@
         <div class="nav-inner">
             <a href="#" class="nav-logo">
                 <svg viewBox="32 32 136 136" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="100" cy="65" r="11" fill="#D4A843"/>
-                    <circle cx="59.5" cy="135" r="11" fill="#2874A6"/>
-                    <circle cx="140.5" cy="135" r="11" fill="#27ae60"/>
+                    <circle cx="100" cy="65" r="11" fill="#D4A843" />
+                    <circle cx="59.5" cy="135" r="11" fill="#2874A6" />
+                    <circle cx="140.5" cy="135" r="11" fill="#27ae60" />
                 </svg>
-                <span class="nav-wordmark">SYNTHAI</span>
+                <span class="nav-wordmark">SYNTHAI TECH</span>
             </a>
-            <button class="menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            <button class="menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')"
+                aria-label="Menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6" />
+                    <line x1="3" y1="12" x2="21" y2="12" />
+                    <line x1="3" y1="18" x2="21" y2="18" />
+                </svg>
             </button>
             <ul class="nav-links">
                 <li><a href="#services">Services</a></li>
@@ -347,15 +1107,23 @@
             <div class="hero-content">
                 <div class="hero-badge"><span class="pulse"></span> Accepting engagements</div>
                 <h1>Your Fractional CTO<br>for the <span class="gt">AI Era</span></h1>
-                <p class="hero-sub">Technology leadership, AI-native product strategy, and startup team building. I embed in your team, not above it, treating your organisation as a living system that needs Mind, Body, and Soul to thrive.</p>
+                <p class="hero-sub">Technology leadership, AI-native product strategy, and startup team building. I
+                    embed in your team, not above it, treating your organisation as a living system that needs Mind,
+                    Body, and Soul to thrive.</p>
                 <div class="hero-ctas">
                     <a href="https://www.linkedin.com/in/mnaveenriaz/" class="btn-p">
                         Start a Conversation
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
                     </a>
                     <a href="#services" class="btn-s">
                         See Services
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M4 9l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M8 3v10M4 9l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
                     </a>
                 </div>
                 <div class="trust-bar">
@@ -380,24 +1148,29 @@
         <div class="container">
             <p class="sec-label">What I Do</p>
             <h2 class="sec-title">Services</h2>
-            <p class="sec-desc">Technology leadership, delivered fractionally. I bring the strategic depth of a full-time CTO to companies that need it most, without the full-time overhead.</p>
+            <p class="sec-desc">Technology leadership, delivered fractionally. I bring the strategic depth of a
+                full-time CTO to companies that need it most, without the full-time overhead.</p>
 
             <div class="services-grid">
                 <div class="svc fcto reveal">
                     <span class="svc-icon">👑</span>
-                    <h3>Fractional CTO</h3>
-                    <p>Embedded technology leadership for startups and scale-ups. I set your tech direction, hire and mentor your engineering team, own your architecture decisions, and represent technology at the leadership table.</p>
+                    <h3>Fractional CTO & AI Infrastructure</h3>
+                    <p>Embedded technology leadership for scaling companies. I focus on creating "AI Service
+                        Infrastructure" over standalone AI products. I own your architecture, set AI integration
+                        strategy, and ensure your tech operations align with the Living Systems paradigm.</p>
                     <div class="svc-tags">
                         <span class="svc-tag">Tech Strategy</span>
+                        <span class="svc-tag">AI Infrastructure</span>
                         <span class="svc-tag">Architecture</span>
-                        <span class="svc-tag">Vendor Management</span>
                         <span class="svc-tag">Board Reporting</span>
                     </div>
                 </div>
                 <div class="svc ai reveal">
                     <span class="svc-icon">🧠</span>
                     <h3>AI-Native Product Solutioning</h3>
-                    <p>Not "bolt-on AI" but ground-up AI-native product design. I help you identify where AI creates genuine value, design the architecture, select the right models and tooling, and build products that are intelligent by design.</p>
+                    <p>Not "bolt-on AI" but ground-up AI-native product design. I help you identify where AI creates
+                        genuine value, design the architecture, select the right models and tooling, and build products
+                        that are intelligent by design.</p>
                     <div class="svc-tags">
                         <span class="svc-tag">LLM Integration</span>
                         <span class="svc-tag">Agentic Systems</span>
@@ -408,7 +1181,9 @@
                 <div class="svc team reveal">
                     <span class="svc-icon">🌱</span>
                     <h3>Startup Team Building</h3>
-                    <p>From zero to your first 10 engineers. I define roles, run hiring loops, establish engineering culture, set up processes that scale, and build the team that will outlast any single technology choice.</p>
+                    <p>From zero to your first 10 engineers. I define roles, run hiring loops, establish engineering
+                        culture, set up processes that scale, and build the team that will outlast any single technology
+                        choice.</p>
                     <div class="svc-tags">
                         <span class="svc-tag">Hiring</span>
                         <span class="svc-tag">Culture</span>
@@ -418,13 +1193,39 @@
                 </div>
                 <div class="svc product reveal">
                     <span class="svc-icon">⚡</span>
-                    <h3>Tech Consultancy</h3>
-                    <p>Deep-dive engagements for specific challenges: system migrations, platform selection, tech debt audits, DevOps maturity, cloud architecture reviews, and go-to-market technical readiness.</p>
+                    <h3>AI Workflow Auditing</h3>
+                    <p>A fixed-price diagnostic. Instead of proposing generic tools, I audit your manual workflows to
+                        locate high-friction choke points. We design targeted automation that cuts 15-20 hours of
+                        manual work without disrupting your core business.</p>
                     <div class="svc-tags">
-                        <span class="svc-tag">Cloud & DevOps</span>
-                        <span class="svc-tag">Tech Debt</span>
-                        <span class="svc-tag">Platform Selection</span>
-                        <span class="svc-tag">Due Diligence</span>
+                        <span class="svc-tag">Fixed-Price Diagnostic</span>
+                        <span class="svc-tag">Workflow Mapping</span>
+                        <span class="svc-tag">Process Automation</span>
+                        <span class="svc-tag">ROI Analysis</span>
+                    </div>
+                </div>
+                <div class="svc edu reveal">
+                    <span class="svc-icon">🎓</span>
+                    <h3>Academic & Institutional Partnerships</h3>
+                    <p>Bridging the gap between academic theory and high-stakes enterprise execution. I partner with
+                        universities and incubators to deliver AI-Era keynote seminars, design cognitive curricula, and
+                        prepare graduates for the cognitive transition.</p>
+                    <div class="svc-tags">
+                        <span class="svc-tag">Keynotes</span>
+                        <span class="svc-tag">Curricula Design</span>
+                        <span class="svc-tag">Ecosystem Alignment</span>
+                    </div>
+                </div>
+                <div class="svc coach reveal">
+                    <span class="svc-icon">♟️</span>
+                    <h3>Executive Coaching & Mentoring</h3>
+                    <p>Direct advisory engagement to uplift institutional survival metrics, startup incubation rates, and
+                        elite placement outcomes. I mentor founders and executives on navigating the cognitive transition
+                        with a living systems approach.</p>
+                    <div class="svc-tags">
+                        <span class="svc-tag">Founder Mentorship</span>
+                        <span class="svc-tag">Executive Advisory</span>
+                        <span class="svc-tag">Strategic Pivot</span>
                     </div>
                 </div>
             </div>
@@ -436,23 +1237,29 @@
         <div class="container">
             <p class="sec-label">The Approach</p>
             <h2 class="sec-title">How I Work</h2>
-            <p class="sec-desc">No 200-slide decks. No 6-month discovery phases. I embed, diagnose, and move, treating every engagement as a living conversation.</p>
+            <p class="sec-desc">Not a tool installer. I don't walk in with a stack of AI products and ask which one you
+                need. I walk in with a diagnostic lens and ask what is actually broken. Diagnosis first, prescription
+                second.</p>
 
             <div class="process-grid">
                 <div class="step reveal">
                     <div class="step-num">01</div>
                     <h3>Diagnose</h3>
-                    <p>I read the system, not just the code. Where is the friction? Where are decisions stuck? What's alive and what's decaying? A structured diagnostic using Mind-Body-Soul lenses.</p>
+                    <p>I read the system, not just the code. Where is the friction? Where are decisions stuck? What is
+                        alive and what is decaying? A structured diagnostic using Mind-Body-Soul lenses, not a tool
+                        audit.</p>
                 </div>
                 <div class="step reveal">
                     <div class="step-num">02</div>
                     <h3>Design</h3>
-                    <p>Architecture, team shape, and AI opportunities, aligned to your stage and budget. I produce artefacts you can execute on, not theoretical roadmaps that gather dust.</p>
+                    <p>Architecture, team shape, and AI opportunities, aligned to your stage and budget. I produce
+                        artefacts you can execute on, not theoretical roadmaps that gather dust.</p>
                 </div>
                 <div class="step reveal">
                     <div class="step-num">03</div>
                     <h3>Deliver</h3>
-                    <p>I stay embedded through execution. Pair with your leads, unblock engineers, review PRs, run retros, and course-correct in real time. Not a consultant who vanishes after the slide deck.</p>
+                    <p>I stay embedded through execution. Pair with your leads, unblock engineers, review PRs, run
+                        retros, and course-correct in real time. Not a consultant who vanishes after the slide deck.</p>
                 </div>
             </div>
         </div>
@@ -465,7 +1272,8 @@
         <div class="container">
             <p class="sec-label">Philosophy</p>
             <h2 class="sec-title">Every Organisation Is Alive</h2>
-            <p class="sec-desc">I don't treat tech as a silo. Every technology decision ripples through three dimensions. Healthy organisations nurture all three.</p>
+            <p class="sec-desc">I don't treat tech as a silo. Every technology decision ripples through three
+                dimensions. Healthy organisations nurture all three.</p>
 
             <div class="mbs-strip">
                 <div class="mbs-cell">
@@ -493,7 +1301,8 @@
     <!-- ═══════════════════════ BELIEF ═══════════════════════ -->
     <section class="belief reveal">
         <div class="container">
-            <blockquote>"An organisation is <em>alive</em>, and we must nurture its Mind, Body, and Soul to keep it alive."</blockquote>
+            <blockquote>"An organisation is <em>alive</em>, and we must nurture its Mind, Body, and Soul to keep it
+                alive."</blockquote>
             <p class="attr">The SYNTHAI Core Belief</p>
         </div>
     </section>
@@ -503,7 +1312,8 @@
         <div class="container">
             <p class="sec-label">Track Record</p>
             <h2 class="sec-title">Credentials</h2>
-            <p class="sec-desc">A career built on shipping, not slides. Engineering leader, team builder, and pattern connector across industries and continents.</p>
+            <p class="sec-desc">A career built on shipping, not slides. Engineering leader, team builder, and pattern
+                connector across industries and continents.</p>
 
             <div class="cred-grid">
                 <div class="cred reveal">
@@ -528,6 +1338,90 @@
 
     <hr class="mbs-divider">
 
+    <!-- ═══════════════════════ ECOSYSTEM & STEALTH ═══════════════════════ -->
+    <section id="ecosystem" class="reveal"
+        style="background: var(--surface-hover); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+        <div class="container">
+            <p class="sec-label" style="color: var(--accent);">Proprietary Intellectual Property</p>
+            <h2 class="sec-title">Products in Stealth Mode</h2>
+            <p class="sec-desc">My consultancy is powered by a massive, active R&amp;D engine. These are the living
+                systems, canonical books, and agentic frameworks currently incubating in the Synthai Laboratory.</p>
+
+            <div class="services-grid" style="padding: 10px;">
+                <div class="service-card reveal"
+                    style="border: 1px dashed var(--accent); padding: 10px;background: var(--bg);">
+                    <div class="icon soul-c">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>Cognitive OS</h3>
+                    <p>The proprietary Multi-Agent Operating System that powers our dialectic debates and strategic
+                        decision mapping. The core engine behind Synthai Tech.</p>
+                </div>
+                <div class="service-card reveal"
+                    style="border: 1px dashed var(--border); padding: 10px;background: var(--bg);">
+                    <div class="icon mind-c">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <polyline points="7.5 4.21 12 6.81 16.5 4.21" />
+                            <polyline points="7.5 19.79 12 17.19 16.5 19.79" />
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                            <line x1="12" y1="22.08" x2="12" y2="12" />
+                        </svg>
+                    </div>
+                    <h3>Governance Kits</h3>
+                    <p>Enterprise agentic frameworks including <strong>SPAR-Kit</strong>, <strong>Vault-Kit</strong>,
+                        and <strong>DMG-Kit</strong>. Used to build unleakable, auditable AI workflows.</p>
+                </div>
+                <div class="service-card reveal"
+                    style="border: 1px dashed var(--border); padding: 10px;background: var(--bg);">
+                    <div class="icon body-c">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect x="4" y="4" width="16" height="16" rx="2" ry="2" stroke="currentColor"
+                                stroke-width="2" />
+                            <line x1="4" y1="12" x2="20" y2="12" stroke="currentColor" stroke-width="2" />
+                            <line x1="12" y1="4" x2="12" y2="20" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3>Author OS</h3>
+                    <p>Sovereign service infrastructure startup, currently in stealth mode. Designed for high-leverage
+                        digital enablement.</p>
+                </div>
+                <div class="service-card reveal"
+                    style="border: 1px dashed var(--border); padding: 10px;background: var(--bg);">
+                    <div class="icon text-c">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>108 KNOTS - Book</h3>
+                    <p>The upcoming 36-episode foundational canon detailing the transition from code execution to
+                        agentic judgment and cognitive awareness.</p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="https://naveenriaz.com" target="_blank" class="btn-s reveal"
+                    style="display: inline-flex; align-items: center; gap: 8px;">
+                    View the Public Exhibition Layer (Neural Canvas)
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <hr class="mbs-divider">
+
     <!-- ═══════════════════════ FOUNDER ═══════════════════════ -->
     <section id="founder" class="reveal">
         <div class="container">
@@ -539,18 +1433,60 @@
                 <div class="founder-info">
                     <h3>Naveen Riaz Mohamed Kani</h3>
                     <p class="role">Fractional CTO · Technology Consultant · Author</p>
-                    <p>I connect patterns across domains that others treat as separate. Computer Science graduate from PSG College of Technology, Coimbatore. A career spanning Cognizant to global engineering leadership. I've built and led teams in India, Hong Kong, USA, Malaysia, UK, and now Australia. My approach blends deep technical expertise with Tamil philosophical wisdom, because good technology starts with good thinking.</p>
+                    <p>An Australia-based Founder, Technologist, and Fractional CTO architecting the cognitive
+                        transition for global enterprises. As an active AI Researcher and Thought Leader in living
+                        systems frameworks, I bridge the gap between academic theory and high-stakes execution,
+                        delivering ground-truth authority drawn directly from the advanced agentic systems I engineer
+                        today.</p>
+                    <p style="margin-top: 12px; font-size: 14px; color: var(--text-dim);">
+                        <strong>Global Credentials:</strong> B.E. Computer Science &amp; Engineering (PSG Tech), DASCA
+                        Senior Data Scientist (SDS™), PMI Project Management Professional (PMP©).
+                    </p>
+
+                    <div class="cognitive-matrix reveal">
+                        <div class="cog-token">
+                            <div class="cog-label">Visionary</div>
+                            <div class="cog-desc">Codify for Talent &amp; Latent Capabilities</div>
+                        </div>
+                        <div class="cog-token">
+                            <div class="cog-label">Strategic</div>
+                            <div class="cog-desc">Personalised AI for Everyone</div>
+                        </div>
+                        <div class="cog-token">
+                            <div class="cog-label">Futuristic</div>
+                            <div class="cog-desc">Building the Next Generation OS</div>
+                        </div>
+                        <div class="cog-token">
+                            <div class="cog-label">Academic</div>
+                            <div class="cog-desc">Researching Intentional AI</div>
+                        </div>
+                        <div class="cog-token full-span">
+                            <div class="cog-label">Achiever</div>
+                            <div class="cog-desc">Architected a Startup (3) to a ScaleUp (50)</div>
+                        </div>
+                    </div>
                     <div class="founder-links">
                         <a href="https://naveenriaz.com">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5"/><path d="M2 8h12M8 2c1.5 1.5 2.5 3.5 2.5 6s-1 4.5-2.5 6c-1.5-1.5-2.5-3.5-2.5-6s1-4.5 2.5-6z" stroke="currentColor" stroke-width="1.5"/></svg>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5" />
+                                <path
+                                    d="M2 8h12M8 2c1.5 1.5 2.5 3.5 2.5 6s-1 4.5-2.5 6c-1.5-1.5-2.5-3.5-2.5-6s1-4.5 2.5-6z"
+                                    stroke="currentColor" stroke-width="1.5" />
+                            </svg>
                             naveenriaz.com
                         </a>
                         <a href="https://github.com/synthaitech">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                            </svg>
                             GitHub
                         </a>
                         <a href="https://www.linkedin.com/in/mnaveenriaz/">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.712-2.165 1.198V6.169H6.55c.032.678 0 7.225 0 7.225h2.4z"/></svg>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.712-2.165 1.198V6.169H6.55c.032.678 0 7.225 0 7.225h2.4z" />
+                            </svg>
                             LinkedIn
                         </a>
                     </div>
@@ -563,15 +1499,22 @@
     <section class="cta-section reveal">
         <div class="container">
             <h2>Every engagement starts the same way:<br>a <span class="gt">conversation</span>.</h2>
-            <p>Whether you need a Fractional CTO, an AI strategy, or help building your first engineering team, let's start with a chat.</p>
+            <p>Whether you need a Fractional CTO, an AI strategy, or help building your first engineering team, let's
+                start with a chat.</p>
             <div class="cta-buttons">
                 <a href="https://www.linkedin.com/in/mnaveenriaz/" class="btn-p">
                     Connect on LinkedIn
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
                 </a>
                 <a href="https://naveenriaz.com" class="btn-s">
                     Read My Thinking
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
                 </a>
             </div>
         </div>
@@ -585,9 +1528,9 @@
             <div class="footer-inner">
                 <div class="footer-brand">
                     <svg viewBox="32 32 136 136" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="100" cy="65" r="11" fill="#D4A843"/>
-                        <circle cx="59.5" cy="135" r="11" fill="#2874A6"/>
-                        <circle cx="140.5" cy="135" r="11" fill="#27ae60"/>
+                        <circle cx="100" cy="65" r="11" fill="#D4A843" />
+                        <circle cx="59.5" cy="135" r="11" fill="#2874A6" />
+                        <circle cx="140.5" cy="135" r="11" fill="#27ae60" />
                     </svg>
                     <span>SYNTHAI</span>
                 </div>
@@ -611,7 +1554,7 @@
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
         document.querySelectorAll('a[href^="#"]').forEach(a => {
-            a.addEventListener('click', function(e) {
+            a.addEventListener('click', function (e) {
                 e.preventDefault();
                 const t = document.querySelector(this.getAttribute('href'));
                 if (t) { t.scrollIntoView({ behavior: 'smooth', block: 'start' }); document.querySelector('.nav-links').classList.remove('open'); }
@@ -620,4 +1563,5 @@
     </script>
 
 </body>
+
 </html>
